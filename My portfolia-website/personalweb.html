@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="nav.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+  <!-- 1st page -->
+  <section class="page_1">
+  <nav id="desktop_nav" class="Desktop_nav">
+      <div class="nav_container">
+        <h3 class="nav_logo">Fiston Karekezi</h3>
+        <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><img src="x.jpg" alt=""height="26" viewBox="0 98 960" width="" class="menu_bar"></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="nav_item">
+            <li class="hideOnMobile"><a href="#about">About</a></li>
+            <li class="hideOnMobile"><a href="#experience">Experience</a></li>
+            <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+            <li class="menu_button" onclick=showSidebar()><img src="menu icon.png" alt="" height="26" viewBox="0 98 960" width="" class="menu_bar"></li>
+        </ul>
+        </nav>
+      </div>
+</nav>
+  <section class="body_element">
+
+    <div class="img">
+        <img src="./fis.PNG" alt="" srcset="">
+    </div>
+
+    <div class="body_text">
+        <h4 class="hello">Hello, I'am</h4>
+        <h4 class="fiston">Fiston Karekezi</h4>
+        <h3 class="full">Full stack Developer</h3>
+
+        <div class="button">
+       <button class="button_calor1" onclick="window.open('./assets')">Download CV</button>
+       <button class="button_calor2 " onclick="location.href='./#contact'" >Contact Info</button>
+    </div>
+    <div class="socials_container">
+      <img src="linkedin.jpg" alt="linkedin_pic"
+      class="icon1" onclick="location.href='https://linkedin.com/'">
+      <img src="download (1).png" alt="github_pic"
+      class="icon2" onclick="location.href='https://github.com/'">
+    </div>
+</div>
+  </section>
+</section>
+  <section  id="about" class="page_2">
+    <div class="title">
+      <p class="get_to_know">Get to know more</p>
+    <h1 class="about_me">About me</h1>
+  </div>
+    <div class="section_container">
+      <div class="section_pic">
+        <img src="./fis.PNG" alt="profile_pic" 
+        class="about_pic"/>
+      </div>
+      <div class="class_class">
+      <div class="experience_education">
+      <div class="text_experience">
+        <div class="pic_icon pic_iconn">
+        <img src="download (3).png" alt="experience_pic"
+        class="experience_pic">
+      </div>
+        <h3 class="expp">Experience</h3>
+        <p class="yearss">2+years <br> backend Development</p>
+      
+      </div>
+      
+      <div class="text_education">
+        <div class="pic_icon">
+        <img src="download (2).png" alt="education_pic"
+        class="education_pic">
+      </div>
+        <h3 class="expp">Education</h3>
+        <p>B.Sof.D </p>
+      
+      </div>
+     </div>
+      
+      <p class="myexperience">In my journey through software engineering, I embarked on a voyage of perpetual learning and innovation.  Each line of code I crafted became a brushstroke in a digital canvas, painting a picture of functionality and  elegance. From the humble beginnings of syntax errors to the triumphs of building complex systems, every  challenge was a lesson, every bug a puzzle to solve. Collaborating with diverse minds in dynamic environments  fueled my creativity and honed my problem-solving skills. Through setbacks and successes, I embraced  the iterative nature of development, continuously refining my craft and embracing the evolving  landscape of technology.
+      </p>
+      <img src="arrow icon.png" alt="arrow_icon" class="arrow_icon" onclick="location.href='./#experience'">
+    </div>
+    </div>
+    <!-- 2nd page -->
+    </section>
+    <section id="experience" class="page_3">
+      <div class="title_2">
+        <p class="get_to_know_1">Explore My</p>
+      <h1 class="about_me">Experience </h1>
+      </div>
+      <div class="all_borders">
+     <div class="experience_details_container1">
+      <div class="akaborder">
+      <h2 class="fronted_deve">Fronted development</h2>
+      <div class="about_containers1">
+        <div class="details_containers">
+          <div class="article_container5">
+            <article>
+              <img src="download (4).JPG" alt="checkmark" class="iconn">
+              <div class="language">
+                <h3>HTML</h3>
+                <p class="exp">Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="download (4).JPG" alt="checkmark" class="iconn">
+              <div class="language">
+                <h3>SASS</h3>
+                <p class="exp">Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="download (4).JPG" alt="checkmark" class="iconn">
+              <div class="language">
+                <h3>TypeScript</h3>
+                <p class="exp">Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details_containers">
+
+          <div class="article_container5">
+            <article>
+              <img src="download (4).JPG" alt="checkmark" class="iconn">
+              <div class="language">
+                <h3>CSS</h3>
+                <p class="exp">Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="download (4).JPG" alt="checkmark" class="iconn">
+              <div class="language">
+                <h3>JavaScript</h3>
+                <p class="exp">Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="download (4).JPG" alt="checkmark" class="iconn">
+              <div class="language">
+                <h3 class="material">Material UI</h3>
+                <p class="exp">Intermediate</p>
+              </div>
+          </div>
+        </div>
+        </div>
+        </div>
+     </div>
+     <div class="experience_details_container2">
+      <div class="akaborder2">
+      <h2 class="fronted_devee">Backend Development</h2>
+      <div class="about_containers2">
+        <div class="details_containers">
+          <div class="article_container article_c">
+            
+            <article>
+              <img src="download (4).JPG" alt="checkmark" class="iconn">
+              <div class="language">
+                <h3>PostgreSQL</h3>
+                <p class="exp">Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="download (4).JPG" alt="checkmark" class="iconn">
+              <div class="language">
+                <h3>Express JS</h3>
+                <p class="exp">Intermediate</p>
+              </div>
+            </article>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="details_containers">
+
+          <div class="article_container article_c">
+            <article>
+              <img src="download (4).JPG" alt="checkmark" class="iconn">
+              <div class="language">
+                <h3>Node JS</h3>
+                <p class="exp">Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="download (4).JPG" alt="checkmark" class="iconn">
+              <div class="language">
+                <h3>Git</h3>
+                <p class="exp">Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        </div>
+     </div>
+    </div>
+    <img src="arrow icon.png" alt="arrow_icon" class="arrow_icon2">
+    </section>
+        <!-- 3rd page -->
+    <section id="projects" class="page_4">
+      <div class="title_2">
+        <p class="get_to_know_2"> Browse My Recents</p>
+      <h1 class="about_me">Projects</h1>
+      </div>
+      <div class="three_borders">
+        <div class="first_border">
+          <img src="game.JPG" alt="" class="img_one">
+          <h4 class="project_text">Project One</h4>
+          <div class="two_links">
+            <button class="github">GitHub</button>
+            <button class="livedemo">Live Demo</button>
+          </div>
+        </div>
+        <div class="first_border">
+          <img src="image.jpg" alt="" class="img_one">
+          <h4 class="project_text">Project Two</h4>
+          <div class="two_links">
+            <button class="github">GitHub</button>
+            <button class="livedemo">Live Demo</button>
+          </div>
+        </div>
+        <div class="first_border">
+          <img src="image.jpg" alt="" class="img_one">
+          <h4 class="project_text">Project Three</h4>
+          <div class="two_links">
+            <button class="github">GitHub</button>
+            <button class="livedemo">Live Demo</button>
+          </div>
+        </div>
+      </div>
+      <img src="arrow icon.png"  alt="arrow_icon" class="arrow_icon2">
+    </section>
+    <!-- 4th page -->
+    <section id="contact" class="page_5">
+      <div class="title_3">
+        <p class="get_to_know_3">Get in Touch</p>
+      <h1 class="about_me">Contact Me</h1>
+      </div>
+      <div class="info">
+      <div class="email">
+      <img src="sms.JPG" alt="email" class="info_icon_sms">
+      <p><a class="emaill" href="mailto:karekezifiston30@gmail.com">karekezifiston30@gmail.com</a></p>
+    </div>
+    <div class="linkd">
+      <img src="linkedin.jpg" alt="linkedin" class="info_icon">
+      <p class="aa"><a class="emaill" href="https://www.linkedin.com"></a>LinkedIn</p>
+    </div>
+  </div>
+  <nav>
+    <div class="linksss">
+      <ul class="nav_item">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </div>
+  </nav>
+
+
+    <p class="footer">Copyright &#169; 2024 Karekezi Fiston. all rights reserved.</p>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+<script>
+
+  // DOWNLOADING THE CV
+    
+  document.addEventListener('DOMContentLoaded', function() {
+        var downloadButton = document.getElementById('downloadButton');
+        downloadButton.addEventListener('click', function() {
+            // Notify the user before downloading
+            var CV = confirm("Are you sure you want to download this CV ?");
+            
+            // If the user confirms, proceed with downloading
+            if (CV) {
+
+                downloadButton.innerHTML = " ";
+                startLoading(); // Start loading animation
+
+
+                // Fetch the file content
+                fetch('https://raw.githubusercontent.com/Shemaremy/Me-Time/main/IMAGES/CV_Remy.zip')
+                    .then(response => response.blob())
+                    .then(blob => {
+                        // Create a Blob URL for the file content
+                        var url = URL.createObjectURL(blob);
+                        
+                        // Create an anchor element
+                        var link = document.createElement('a');
+                        link.setAttribute('href', url);
+                        link.setAttribute('download', 'CV_Remy');
+                        link.style.display = 'none';
+                        document.body.appendChild(link);
+                        
+                        // Simulate a click on the anchor element
+                        link.click();
+                        
+                        // Clean up by revoking the Blob URL
+                        URL.revokeObjectURL(url);
+    
+                        // Disable the download button after the download is complete
+                        downloadButton.disabled = true;
+    
+                        // Change the text of the button
+                        downloadButton.textContent = "Downloaded successfully!";
+                        
+                        // Add the completed class to the button
+                        downloadButton.classList.add('completed');
+                        
+                        // Increase the width of .coffee_button
+                        var coffeeButton = document.querySelector('.coffee-button');
+                        coffeeButton.style.width = '180px';
+                        
+                        var buymecoffee = document.querySelector('.Buy_me_coffee');
+                        buymecoffee.style.paddingLeft = '13%';
+
+                            // Stop loading animation
+                        coffeeButton.style.padding ='13px';
+                        downloadButton.innerHTML = "Success !";
+                    })
+                    .catch(error => {
+                        console.error('Error occurred while downloading:', error);
+                    });
+            }
+        });
+
+                function startLoading() {
+                var loaderSpan = document.createElement('span');
+                var reducepadding = document.querySelector('.coffee-button ');
+                reducepadding.style.padding = '8px';
+                loaderSpan.classList.add('loader');
+                downloadButton.appendChild(loaderSpan);
+                downloadButton.disabled = true;
+            }
+    });
+    
+ 
+</script>
+
+</html>
